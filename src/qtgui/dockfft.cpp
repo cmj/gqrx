@@ -88,6 +88,9 @@ DockFft::DockFft(QWidget *parent) :
     ui->cmapComboBox->addItem(tr("Viridis"), "viridis");
     ui->cmapComboBox->addItem(tr("Turbo"), "turbo");
     ui->cmapComboBox->addItem(tr("Plasma"), "plasma");
+    ui->cmapComboBox->addItem(tr("Magma"), "magma");
+    ui->cmapComboBox->addItem(tr("Inferno"), "inferno");
+    ui->cmapComboBox->addItem(tr("Grape"), "grape");
     ui->cmapComboBox->addItem(tr("Wht Cmp"), "whitehotcompressed");
     ui->cmapComboBox->addItem(tr("Wht Hot"), "whitehot");
     ui->cmapComboBox->addItem(tr("Blk Hot"), "blackhot");
