@@ -23,6 +23,7 @@ Download
 Gqrx is distributed as a source code package and binaries for Linux and Mac.
 Many Linux distributions provide gqrx in their package repositories.
 Alternate Mac support is available through [MacPorts](https://ports.macports.org/port/gqrx/summary) and [Homebrew](https://formulae.brew.sh/cask/gqrx).
+Windows support is available through [radioconda](https://github.com/ryanvolz/radioconda#radioconda).
 
 * [Official releases](https://github.com/gqrx-sdr/gqrx/releases)
 * [Pre-release builds](https://github.com/gqrx-sdr/gqrx/actions?query=workflow%3ABuild+branch%3Amaster)
@@ -81,7 +82,7 @@ Installation from source
 The source code is hosted on Github: https://github.com/gqrx-sdr/gqrx
 
 To compile gqrx from source you need the following dependencies:
-- GNU Radio 3.7, 3.8, 3.9, or 3.10 with the following components:
+- GNU Radio 3.8, 3.9, or 3.10 with the following components:
     - gnuradio-runtime
     - gnuradio-analog
     - gnuradio-audio
@@ -103,7 +104,7 @@ To compile gqrx from source you need the following dependencies:
     - RFSpace driver is built in
 - gnuradio-osmosdr from https://gitea.osmocom.org/sdr/gr-osmosdr
 - pulseaudio or portaudio (Linux-only and optional)
-- Qt 5 with the following components:
+- Qt 5 or Qt 6 with the following components:
     - Core
     - GUI
     - Network
@@ -183,6 +184,7 @@ The following people and organisations have contributed to gqrx:
 * Andy Sloane
 * Anthony Willard
 * Anton Blanchard
+* AsciiWolf
 * Bastian Bloessl
 * Ben Reese
 * Bob McGwier, N4HY
@@ -196,7 +198,9 @@ The following people and organisations have contributed to gqrx:
 * Darin Franklin
 * Davide Gerhard
 * Dominic Chen
+* Doron Behar
 * Doug Hammond
+* Edouard Lafargue
 * Elias Önal
 * Federico Fuga
 * Frank Brickle, AB2KT
@@ -206,15 +210,19 @@ The following people and organisations have contributed to gqrx:
 * Göran Weinholt, SA6CJK
 * Grigory Shipunov
 * Gwenhael Goavec-Merou
+* Herman Semenov
+* Jaroslav Škarvada
 * Jeff Long
 * Jiawei Chen
 * Jiří Pinkava
 * Joachim Schueth, DL2KCD
+* Jon Bergli Heier
 * Josh Blum
 * Kate Adams
 * Kenji Rikitake, JJ1BDX
 * Kitware Inc.
 * Konrad Beckmann
+* Luna Gräfje
 * luzpaz
 * Marco Savelli
 * Markus Kolb
@@ -233,9 +241,12 @@ The following people and organisations have contributed to gqrx:
 * Radoslav Gerganov
 * Rob Frohne
 * Ron Economos, W6RZ
+* Ruslan Migirov
 * Russell Dwarshuis, KB8U
+* Ryan Volz
 * Shuyuan Liu
 * Stefano Leucci
+* Sultan Qasim Khan
 * Sylvain Munaut
 * Tarmo Tanilsoo
 * Tomasz Lemiech
